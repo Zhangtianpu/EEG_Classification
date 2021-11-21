@@ -1,11 +1,20 @@
 # GEE Classification
 ## Code Structure:
-    数据处理代码：egg_process.py 读取eeg数据集，并将该数据集划分成训练集，验证集，测试集。
-    模型数据加载代码：egg_dataset.py 读取经过处理后的eeg数据，生成dataset。
-    模型框架代码：egg_network.py
-    模型训练代码：eeg_train.py
-## Useage
+    Configurations: related configuration about gee clissification model
+    Data: It is a folder, which used to save raw dataset and processed dataset.
+    Data process model：egg_process.py, read GEE dataset，and split dataset into train, val and test set.
+    Data upload model：egg_dataset.py 
+    Model：egg_network.py
+    Train：eeg_train.py
 
 ## Dataset
+   The downlaod addresse of GEE datasets: https://exhibits.stanford.edu/data/catalog/tc919dd5388
+
+## Useage
+   
+
+
 
 ## Reference
+[1] Kaneshiro, Blair, et al. "A representational similarity analysis of the dynamics of object processing using single-trial EEG classification." Plos one 10.8 (2015): e0135697.
+[2] Yu, Bing, Haoteng Yin, and Zhanxing Zhu. "Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting." arXiv preprint arXiv:1709.04875 (2017).
