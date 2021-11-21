@@ -8,16 +8,19 @@
     Train：eeg_train.py
 
 ## Dataset
-   The downlaod addresse of EEG datasets:   https://exhibits.stanford.edu/data/catalog/tc919dd5388
+   The downlaod addresse of EEG datasets:  
+   https://exhibits.stanford.edu/data/catalog/tc919dd5388
 
 ## Useage
    
    Run data process model to split data into train,val and test set.  
+   ```
    python data_process --config_path ./configurations/eeg_config.yaml
-   
+   ```
    Train EEG classification model  
+   ```
    python eeg_train.py --config_path ./configurations/eeg_config.yaml
-   
+   ```
 
 
 
