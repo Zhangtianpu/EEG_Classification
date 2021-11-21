@@ -16,5 +16,5 @@
 
 
 ## Reference
-[1] Kaneshiro, Blair, et al. "A representational similarity analysis of the dynamics of object processing using single-trial EEG classification." Plos one 10.8 (2015): e0135697.
+[1] Kaneshiro, Blair, et al. "A representational similarity analysis of the dynamics of object processing using single-trial EEG classification." Plos one 10.8 (2015): e0135697.  
 [2] Yu, Bing, Haoteng Yin, and Zhanxing Zhu. "Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting." arXiv preprint arXiv:1709.04875 (2017).
