@@ -1,4 +1,7 @@
 # EEG Classification
+The task is requried us to classify electroencephalography(EEG) into six categories, including human body, human face, animal body, animal face, fruit vegetable and inanimate object. The EEG dataset acquired from brain of participants responsing to different photographys. These photographys that participants are reuqired to watch can be classifiy into six afordmethioned categories.   
+To achieve classification task, in this project, I reference the model structure of STGCN[1] and get the 42% prediction percision of classification to six categories. 
+
 ## Code Structure:
     Configurations: related configuration about EEG clissification model
     Data: It is a folder, which used to save raw dataset and processed dataset.
