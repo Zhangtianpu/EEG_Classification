@@ -1,0 +1,36 @@
+data:
+    raw_data_dir : ./data/raw_data
+    train_test_data_file : ./data/train_test_data/train_test.pkl
+
+train:
+    #学习率
+    base_lr : 0.01
+    #训练批次
+    epochs : 100
+    batch_size : 128
+    #模型保存目录
+    experiment_dir : ./models/eeg_experiment01
+    #学习率调正步数，0到20批次，学习率0.01，20到50批次，学习率0.001
+    steps : [20,50,60]
+    #学习率递减率，当前学习率=base_lr*lr_decay_ratio
+    lr_decay_ratio: 0.1
+
+model:
+    #节点embedding维度
+    embding_dim : 8
+    #图卷积模块输出维度
+    gcn_output_dim : 16
+    #最终模型输出维度，与预测类别数量相同
+    output_dim : 6
+    #节点个数，在本数据集中与时间步长相同
+    num_nodes : 32
+    #原始数据每个时间节点的特征维度
+    input_dim : 124
+    #时序卷积模块的输出维度
+    out_channels : 24
+    #时序卷积模块的卷积核大小
+    kernel_size : 3
+    #时序卷积模块的padding
+    padding : 1
+    #时序卷积模块的卷积步长
+    stride : 1
